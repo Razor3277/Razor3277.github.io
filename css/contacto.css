@@ -1,0 +1,166 @@
+.contenedor{
+    position: relative;
+    margin: 2rem;
+    height: 40rem;
+}
+
+.subcontenedor1{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+
+.subcontenedor2{
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50%;
+}
+
+.informacion{
+    position: absolute;
+    padding: 2rem;
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.informacion h1{
+    font-size: 3rem;
+}
+
+.informacion .subtitulo{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.informacion .texto{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.redes{
+    position: absolute;
+    bottom: 0;
+    height: 40%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.redes h2{
+    position: absolute;
+    padding: 0 2rem;
+    left: 0;
+    top: 0;
+}
+
+.redes .icono{
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+}
+
+.icono:hover{
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    border-radius:50%;
+}
+
+.icono-telegram{
+    background-image: url(/images/redes/telegram-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 30%;
+    margin-bottom: 6%;
+}
+.icono-whatsapp{
+    background-image: url(/images/redes/whatsapp-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 18%;
+    margin-bottom: 14%;
+}
+.icono-twitter{
+    background-image: url(/images/redes/twitter-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 18%;
+}
+.icono-instagram{
+    background-image: url(/images/redes/instagram-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 18%;
+    margin-bottom: 14%;
+}
+.icono-facebook{
+    background-image: url(/images/redes/facebook-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30%;
+    margin-bottom: 6%;
+}
+
+.logo-empresa{
+    background-image: url(/images/logos/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10rem;
+    height: 10rem;
+}
+
+.campo{
+    width: 100%;
+    height: 4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.campo::placeholder{
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+input:focus {
+    outline: none;
+}
+
+.enviar-btn{
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #282828;
+    color: white;
+    padding: 0.4rem 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.condiciones{
+    position: absolute;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+input[type=checkbox]{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.text-area{
+    resize: none;
+    height: 10rem;
+}

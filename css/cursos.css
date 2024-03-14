@@ -1,0 +1,62 @@
+.contenedor{
+    position: relative;
+    margin: 3rem;
+    height: 20rem;
+}
+
+.descripcion-curso{
+    padding: 2rem;
+    position: absolute;
+    height: 100%;
+}
+
+.curso1 .descripcion-curso{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 55%;
+}
+
+.curso2 .descripcion-curso{
+    position: absolute;
+    padding: 0;
+    padding-right: 2rem;
+    height: 100%;
+    width: 55%;
+}
+
+.imagen-curso{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.curso1 .imagen-curso{
+    width: 45%;
+    background-image: url(/images/cursos/curso1.webp);
+    background-size: cover;
+}
+
+.curso2 .imagen-curso{
+    width: 45%;
+    right: 0;
+    background-image: url(/images/cursos/curso2.webp);
+    background-size: cover;
+}
+
+.horas-curso{
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.boton{
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
+    background-color: #cdc8be;
+    padding: 0.5rem 3rem
+}

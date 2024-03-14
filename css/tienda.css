@@ -1,0 +1,66 @@
+.contenedor{
+    margin: 3rem;
+    margin-top: 4rem;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-botones{
+    margin: 5rem;
+    height: 3rem;
+}
+
+.panel-botones button{
+    border: none;
+    border-radius: 2rem;
+    background-color: #282828;
+    height: 100%;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    padding: 0rem 1rem;
+    color: white;
+    cursor: pointer;
+    float: right;
+}
+
+/*Efecto de sombreado al pasar el cursor por encima*/
+.panel-botones button:hover{
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    transition: 0.5s
+}
+
+.contenedor .articulo{
+    height: 100%;
+    width: 20%;
+    
+}
+
+/*Mediante el transform perspective se hace un efecto 3D a la imagen.*/
+.articulo img{
+    width: 100%;
+    transform: perspective(400px) rotateY(30deg);
+}
+
+/*Se añade un pequeño efecto de sombreado al pasar el cursor sobre la imagen
+ * ademas la imagen se volverá circular*/
+.articulo img:hover{
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    border-radius:50%;
+    transition: 0.5s;
+}
+
+.articulo{
+    text-align: center;
+}
+
+.articulo .articulo-nombre{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.articulo .articulo-precio{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}

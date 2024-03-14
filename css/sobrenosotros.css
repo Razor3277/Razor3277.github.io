@@ -1,0 +1,95 @@
+.container{
+    position: relative;
+    margin: 4rem;
+    margin-top: 2rem;
+    height: 40rem;
+}
+
+.subcontainer1{
+    position: absolute;
+    height: 100%;
+    width: 40%;
+}
+
+.subcontainer2{
+    position: absolute;
+    padding: 2rem;
+    right: 0;
+    height: 100%;
+    width: 60%;
+}
+
+.subcontainer1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto-cabecera{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.texto-cuerpo{
+    font-size: 1.2rem;
+}
+
+.logo-empresa{
+    position: relative;
+    width: 100%;
+    height: 4rem;
+}
+
+.logo-empresa img{
+    position: absolute;
+    height: 80%;
+}
+
+.logo-empresa h1{
+    position: absolute;
+    margin-top: 0.2rem;
+    margin-left: 4rem;
+}
+
+.logo-empresa span{
+    color: #d26405;
+}
+
+.redes{
+    position: relative;
+    margin-top: 10rem;
+    height: 2rem;
+    width: 100%;
+}
+
+.redes a{
+    border-radius: 1rem;
+    width: 32px;
+    height: 100%;
+    float: left;
+    margin: 0 0.5rem;
+}
+
+/*Al pasar el cursor por encima del icono de una red social se le
+ *aplica un efecto de sombreado naranja y una transición de 0.5s*/
+.redes a:hover{
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    border-radius:50%;
+    transition: 0.5s;
+}
+
+.redes .icono-instagram{
+    background-image: url(/images/redes/instagram-logo.png);
+    background-size: cover;
+}
+.redes .icono-facebook{
+    background-image: url(/images/redes/facebook-icon.png);
+    background-size: cover;
+}
+.redes .icono-twitter{
+    background-image: url(/images/redes/twitter-icon.png);
+    background-size: cover;
+}
